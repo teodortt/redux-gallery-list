@@ -17,7 +17,7 @@ const Favourites = () => {
     return (
         <div>
 
-            <Box sx={{ width: 500, height: 450, overflowY: 'scroll' }}>
+            <Box sx={{ width: 500, height: 600 }}>
 
                 <p className="albums">{favourites.length < 1 ? "Favourites list is empty!" : `You have ${favourites.length} favourite items.`}</p>
 

@@ -93,7 +93,7 @@ export default function App() {
                     </Box>
                 </Modal>
 
-                <Box sx={{ width: 500, height: 450, overflowY: 'scroll' }}>
+                <Box sx={{ width: 480, height: 600 }}>
                     <p className="albums">Albums</p>
                     <ImageList sx={{ width: 480, height: 450 }} cols={3} rowHeight={164}>
                         {findUnique.map((item) => (
